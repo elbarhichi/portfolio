@@ -62,7 +62,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/badreddinesaadioui"
+                  href="https://github.com/elbarhichi"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -70,7 +70,7 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
-              <li className="social-icons">
+              {/* <li className="social-icons">
                 <a
                   href="https://twitter.com/saadiouibadr"
                   target="_blank"
@@ -79,10 +79,10 @@ function Home2() {
                 >
                   <AiOutlineTwitter />
                 </a>
-              </li>
+              </li> */}
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/badreddine-saadioui/"
+                  href="https://www.linkedin.com/in/mohammed-el-barhichi/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -92,7 +92,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/prepakid"
+                  href="https://www.instagram.com/mohammed.elbarhichi/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
