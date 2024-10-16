@@ -19,37 +19,26 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              It all started with a passion to mathematics, computer science, and how technology works… 🤷‍♂️
-              <br />
-              <br />I am currently studying
-              <i>
-                <b className="purple"> Generalist engineering </b>
-              </i>
-              <br />
-              <br />
-              My field of Interest's are &nbsp;
-              <i>
-                <b className="purple"> Consulting, AI engineering, Data analytics, and Data scrapping, </b>
-                also in areas related to{" "}
-                <b className="purple">
-                  building Web Technologies and products.
-                </b>
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for <b className="purple">UX/UI</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Graphic design.
-                </b>
-              </i>
+              
+            It all began with a spark of curiosity and my participation in the <i> <b className="purple">National Olympiads of Informatics</b> </i>
+            , where I first discovered the incredible world of algorithms and problem-solving.
+            <br />
+            <br />Fast forward to today, I'm a final-year <i> <b className="purple">Artificial Intelligence</b> </i> Engineering student at <i> <b className="purple">CentraleSupélec</b> </i>, with a minor in Innovation.
+            
+            <br />
+            <br /> My passion for  <i> <b className="purple">Data Science</b> </i> and <i> <b className="purple">AI projects</b> </i> drives me every day as I explore the power of technology to solve real-world problems.
+
+            <br />
+            <br />Self-motivated, agile-forward thinker with a knack for communication and teamwork. Whether I’m diving deep into <i> <b className="purple">data analytics</b> </i> or collaborating on cutting-edge <i> <b className="purple">AI models</b> </i>, I'm constantly pushing the boundaries of what's possible.
+
+            <br />
+            <br />Beyond the technical realm, I’m passionate about creative problem-solving, always looking for <i> <b className="purple">innovative</b> </i> ways to blend technology and business to drive meaningful impact.
+              
             </p>
           </Col>
-          <Col md={4} className="myAvtar">
+          <Col md={4} className="myAvtar d-flex align-items-center">
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" style={{ maxHeight: "300px" }} />
-
             </Tilt>
           </Col>
         </Row>

@@ -17,8 +17,6 @@ import { CgFileDocument } from "react-icons/cg";
 import { IoMdSchool } from "react-icons/io";
 import { IoMdBriefcase } from "react-icons/io";
 
-
-import { MdOutlineDesignServices } from "react-icons/md";
 import { FaCertificate } from 'react-icons/fa';
 import { CgGames } from 'react-icons/cg';
 
@@ -121,16 +119,6 @@ function NavBar() {
                 <IoMdBriefcase style={{ marginBottom: "2px" }} /> Experience
               </Nav.Link>
             </Nav.Item>                  
-
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/Design"
-                onClick={() => updateExpanded(false)}
-              >
-                <MdOutlineDesignServices style={{ marginBottom: "2px" }} /> Design
-              </Nav.Link>
-            </Nav.Item>
 
             <Nav.Item>
               <Nav.Link

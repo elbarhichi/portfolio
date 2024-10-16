@@ -5,13 +5,11 @@ import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
-//import ComingSoon from "./components/ComingSoon/ComingSoon";
 import Education from "./components/Education/Education";
 import Experience from "./components/Experience/Experience";
 import Projects from "./components/Projects/Projects";
 import Interests from "./components/Interests/Interests";
 import Civic from "./components/Civic/Civic";
-import Design from "./components/Design/Design";
 
 import {
   BrowserRouter as Router,
@@ -48,7 +46,6 @@ function App() {
           <Route path="/resume" element={<Resume />} />
           <Route path="/education" element={<Education />} />
           <Route path="/experience" element={<Experience />} />
-          <Route path="/Design" element={<Design />} />
           <Route path="/civic" element={<Civic />} />
            <Route path="/interests" element={<Interests />} />
           <Route path="*" element={<Navigate to="/"/>} />
