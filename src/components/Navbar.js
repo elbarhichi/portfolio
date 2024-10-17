@@ -18,7 +18,6 @@ import { IoMdSchool } from "react-icons/io";
 import { IoMdBriefcase } from "react-icons/io";
 
 import { FaCertificate } from 'react-icons/fa';
-import { CgGames } from 'react-icons/cg';
 
 
 
@@ -76,6 +75,16 @@ function NavBar() {
                 <AiOutlineUser style={{ marginBottom: "2px" }} /> About
               </Nav.Link>
             </Nav.Item>
+            
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/education"
+                onClick={() => updateExpanded(false)}
+              >
+                <IoMdSchool style={{ marginBottom: "2px" }} /> Education
+              </Nav.Link>
+            </Nav.Item>
 
             <Nav.Item>
               <Nav.Link
@@ -93,26 +102,6 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/resume"
-                onClick={() => updateExpanded(false)}
-              >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
-              </Nav.Link>
-            </Nav.Item>
-
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/education"
-                onClick={() => updateExpanded(false)}
-              >
-                <IoMdSchool style={{ marginBottom: "2px" }} /> Education
-              </Nav.Link>
-            </Nav.Item>
-
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
                 to="/experience"
                 onClick={() => updateExpanded(false)}
               >
@@ -123,26 +112,26 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/civic"
+                to="/resume"
                 onClick={() => updateExpanded(false)}
               >
-                <FaCertificate style={{ marginBottom: "2px" }} /> Certification
+                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/interests"
+                to="/civic"
                 onClick={() => updateExpanded(false)}
               >
-                <CgGames style={{ marginBottom: "2px" }} />  Interests
+                <FaCertificate style={{ marginBottom: "2px" }} /> Certifications
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/badreddinesaadioui/portfolio"
+                href="https://github.com/elbarhichi/portfolio"
                 target="_blank"
                 className="fork-btn-inner"
               >

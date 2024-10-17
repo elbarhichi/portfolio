@@ -8,7 +8,6 @@ import Resume from "./components/Resume/ResumeNew";
 import Education from "./components/Education/Education";
 import Experience from "./components/Experience/Experience";
 import Projects from "./components/Projects/Projects";
-import Interests from "./components/Interests/Interests";
 import Civic from "./components/Civic/Civic";
 
 import {
@@ -41,13 +40,12 @@ function App() {
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/project" element={<Projects />} />
           <Route path="/about" element={<About />} />
-          <Route path="/resume" element={<Resume />} />
           <Route path="/education" element={<Education />} />
+          <Route path="/project" element={<Projects />} />
           <Route path="/experience" element={<Experience />} />
+          <Route path="/resume" element={<Resume />} />
           <Route path="/civic" element={<Civic />} />
-           <Route path="/interests" element={<Interests />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />
