@@ -2,9 +2,16 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "../Projects/ProjectCards";
 import Particle from "../Particle";
-import gp from "../../Assets/Civic/gp.png";
-import ai from "../../Assets/Civic/ai.png";
-import sm from "../../Assets/Civic/sm.png";
+import gp from "../../Assets/Civic/gp.jpg";
+import ibm from "../../Assets/Civic/ibm.jpg";
+import sm from "../../Assets/Civic/sm.jpg";
+import bcg from "../../Assets/Civic/bcg.jpg";
+import py from "../../Assets/Civic/py.jpg";
+import sql from "../../Assets/Civic/sql.jpg";
+import uml from "../../Assets/Civic/uml.jpg";
+import cn from "../../Assets/Civic/cn.jpg";
+import kpmg from "../../Assets/Civic/kpmg.jpg";
+
 
 
 function Civic() {
@@ -13,19 +20,28 @@ function Civic() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          Online <strong className="purple"> Certifications </strong>
+          My <strong className="purple"> Certifications </strong>
         </h1>
         <p style={{ color: "white" }}>
-          in this section you'll find certifications of courses that i enrolled...
+          In this section you'll find certifications of courses that I enrolled and competitions that I participated in.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={ai}
+              imgPath={ibm}
               isBlog={false}
-              title="IBM AI Engineering"
-              description=" Learners who have completed this 6 course Professional Certificate have a practical understanding of Machine Learning (ML) & Deep Learning (DL). They have technical skills to start a career in AI Engineering, and can: • Implement ML algorithms including Classification, Regression, Clustering, and Dimensional Reduction using scipy & scikitlearn • Perform ML on Big Data and deploy ML Algorithms and Pipelines on Apache Spark • Demonstrate understanding of Deep Learning models such as autoencoders, restricted Boltzmann machines, convolutional networks, recursive neural networks, and recurrent networks • Build deep learning models and neural networks using Keras, PyTorch and Tensorflow libraries • Demonstrate ability to present and communicate outcomes of deep learning projects."
-              courseraLink="https://coursera.org/share/b943377084cee42d0eaa93c7d268386b"
+              title="IBM Data Science"
+              description=" 
+              In this 10 courses Professional Certificate, I developed and honed hands-on 
+              skills in Data Science and Machine Learning. I started with
+              an orientation of Data Science and its Methodology, became familiar
+              and used a variety of data science tools, learned Python and SQL,
+              performed Data Visualization and Analysis, and created Machine
+              Learning models. In the process I completed several labs and
+              assignments on the cloud including a Capstone Project at the end to
+              apply and demonstrate my knowledge and skills.
+              "
+              courseraLink="https://www.credly.com/badges/5e224d04-1447-4c58-882f-4438ad857d6a/public_url"
               />
           </Col>
           <Col md={4} className="project-card">
@@ -33,8 +49,14 @@ function Civic() {
               imgPath={sm}
               isBlog={false}
               title="Scrum Master Certification"
-              description=" In this specialization, you'll learn about managing tasks and events within a Sprint, Scrum terminology and roles, Scrum reporting, and managing risks. We'll discuss Story Points and User Stories, scaling Scrum, Continuous Integration, test-Driven Development (TDD), and Behavior Driven Development (BDD)."
-              courseraLink="https://coursera.org/share/0b6a585db244b697edd19df7c6aac2eb"
+              description="
+              In this specialization, I learned about managing tasks and events
+              within a Sprint, Scrum terminology and roles, Scrum reporting,
+              managing risks, Story Points and User Stories, scaling
+              Scrum, Continuous Integration, test-Driven Development (TDD), and
+              Behavior Driven Development (BDD).
+              "
+              courseraLink="https://coursera.org/verify/specialization/L8K6MJQJ2SLY"
               />
           </Col>
           <Col md={4} className="project-card">
@@ -42,11 +64,88 @@ function Civic() {
               imgPath={gp}
               isBlog={false}
               title="Google Project Management"
-              description=" Google Project Management on Coursera is a comprehensive online course that provides learners with the knowledge and skills to effectively manage projects using Google's tools and methodologies. The course covers topics such as project planning, execution, monitoring, and closure, as well as effective communication, team collaboration, and risk management. Learners will also gain insights into Google's project management philosophy and best practices. The course is self-paced and offers a mix of instructional videos, interactive assignments, and real-world case studies to help learners develop practical project management skills using Google's approach."
-              courseraLink="https://www.coursera.org/account/accomplishments/professional-cert/ABYJPG7EJGQC?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=prof"
+              description="
+              In this Certificate, I have
+              completed six courses, developed by Google, that include hands-on,
+              practice-based assessments and are designed to prepare them for
+              introductory-level roles in Project Management. They are competent in
+              initiating, planning and running both traditional and agile projects.
+              "
+              courseraLink="https://coursera.org/verify/professional-cert/E2TFH4L2ZWLN"
               />
           </Col>    
-          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bcg}
+              isBlog={false}
+              title="BCG X Data Science Job Simulation"
+              description=" 
+              In this Job Simulation, I worked on a project to create a customer
+               churn analysis simulation using Python. This project built my data 
+               science skills in a real-world context, as well as my presentation skills 
+               through creating an executive summary of my findings for the team. 
+              "
+              courseraLink="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/BCG%20/Tcz8gTtprzAS4xSoK_BCG_7dvGeYMiGyLhk8hcj_1700468583372_completion_certificate.pdf"
+              />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={kpmg}
+              isBlog={false}
+              title="KPMG Data Analytics Job Simulation"
+              description="
+              In this Job Simulation, I worked on a project to advise a client on customer 
+              targeting and I practiced assessing data quality, garnering insights, and creating
+               dashboards in a real-world context. This project built my data analytics skills, 
+               as well as my presentation skills through creating an executive summary of my findings for the team.
+              "
+              courseraLink="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/KPMG%20AU/m7W4GMqeT3bh9Nb2c_KPMG%20AU_7dvGeYMiGyLhk8hcj_1708340763296_completion_certificate.pdf"
+              />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={py}
+              isBlog={false}
+              title="SoloLearn Python"
+              description="
+              
+              "
+              courseraLink=""
+              />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={sql}
+              isBlog={false}
+              title="SoloLearn SQL"
+              description=" 
+              
+              "
+              courseraLink=""
+              />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={uml}
+              isBlog={false}
+              title="Modeling Software Systems using UML"
+              description="
+              
+              "
+              courseraLink=""
+              />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={cn}
+              isBlog={false}
+              title="Client Needs and Software Requirements"
+              description=" 
+              
+              "
+              courseraLink=""
+              />
+          </Col>
     
         </Row>
       </Container>

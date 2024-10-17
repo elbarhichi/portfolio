@@ -52,7 +52,7 @@ function ProjectCards(props) {
             style={{ marginLeft: "10px" }}
           >
             <SiCoursera /> &nbsp;
-            {"Coursera"}
+            {"See certification"}
           </Button>
         )}
         {"\n"}

@@ -105,7 +105,7 @@ function NavBar() {
                 to="/experience"
                 onClick={() => updateExpanded(false)}
               >
-                <IoMdBriefcase style={{ marginBottom: "2px" }} /> Experience
+                <IoMdBriefcase style={{ marginBottom: "2px" }} /> Experiences
               </Nav.Link>
             </Nav.Item>                  
 
