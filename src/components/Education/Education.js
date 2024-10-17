@@ -14,30 +14,48 @@ function Education() {
     className="vertical-timeline-element--work"
     contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-    date="2023 - present"
+    date="2024 - present"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     icon={<IoMdSchool />}
   >
-    <h3 className="vertical-timeline-element-title">ECL ECOLE CENTRALE DE LYON | Ex-change generalist engineering Student</h3>
-    <h4 className="vertical-timeline-element-subtitle">Lyon, France</h4>
+    <h3 className="vertical-timeline-element-title">CentraleSupélec | Artificial Intelligence</h3>
+    <h4 className="vertical-timeline-element-subtitle">Paris, France</h4>
     <p>
-      Ex-change engineering student at ÉCOLE CENTRALE de Lyon (Grande École) studying Computer science, finance and economics, marketing, entrepreneurship and astrophysics.
-
+      Master's degree in Artificial Intelligence, with a minor Innovation and Intrapreneurship.
+      <br /><strong>Included courses</strong>  : Machine Learning, Deep Learning, Reinforcement Learning, Computer Vision, Natural Language Processing, Data Mining, Probabilistic Graphical Models, etc.
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
     contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-    date="2022 - 2023"
+    date="2024 - 2024"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     icon={<IoMdSchool />}
   >
-    <h3 className="vertical-timeline-element-title">ECC CENTRALE CASABLANCA | system engineering Student</h3>
+    <h3 className="vertical-timeline-element-title">ESSEC Business School | Data-Driven entrepreneurship</h3>
+    <h4 className="vertical-timeline-element-subtitle">Rabat, Morocco</h4>
+    <p>
+      Exchange program focusing on data-driven entrepreneurship and business development.
+      <br /> <strong>Included courses</strong> : Data-Driven Decision-Making, Corporate Finance, International Negotiation, Business Strategy, etc.
+      <br /> <strong>Grade</strong> : Ranked 1st out of 30 students.
+    </p>
+  </VerticalTimelineElement>
+  <VerticalTimelineElement
+    className="vertical-timeline-element--work"
+    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+    date="2022 - 2024"
+    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    icon={<IoMdSchool />}
+  >
+    <h3 className="vertical-timeline-element-title">Ecole Centrale Casablanca | Systems Engineering </h3>
     <h4 className="vertical-timeline-element-subtitle">Casablanca, Morocco</h4>
     <p>
-      I joined The ÉCOLE CENTRALE CASABLANCA ECC which is a French/Morroccan engineering school (Grande École) that provides a broad-based education encompassing a wide range of subjects.
-      
+    Engineer's degree in General Engineering with a focus on Data Science.
+    <br /><strong>Included courses</strong>  : Probability, Statistics, Optimization, Algorithms, Data Structures, Object-Oriented Programming, Operations Research. etc.
+    <br />
+    <strong>Grade</strong> : Ranked 2nd out of 180 students.
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
@@ -48,11 +66,11 @@ function Education() {
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     icon={<IoMdSchool />}
   >
-    <h3 className="vertical-timeline-element-title"> CPGE LYCEE MED V | MPSI-MP </h3>
-    <h4 className="vertical-timeline-element-subtitle">Casablanca, Morocco</h4>
+    <h3 className="vertical-timeline-element-title"> CPGE Moulay Abdellah | Maths-Physics (MP) </h3>
+    <h4 className="vertical-timeline-element-subtitle">Safi, Morocco</h4>
     <p>
-      A 2 year formation balanced between mathematics, physical sciences, computer science and industrial sciences, which ideally prepares for future engineering professions.
-      
+    2 years of intensive training in mathematics, physics, computer science and systems engineering to pass the national exam for high engineerig schools (Grandes Ecoles).
+    <br /> <strong>Grade</strong> : Ranked 287 out of 3000 students (Top 9% of national cohort).
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
@@ -63,10 +81,11 @@ function Education() {
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     icon={<IoMdSchool />}
   >
-    <h3 className="vertical-timeline-element-title"> LYCEE AZHAR ERRIAD 2 | High School Diploma </h3>
-    <h4 className="vertical-timeline-element-subtitle">Casablanca, Morocco</h4>
+    <h3 className="vertical-timeline-element-title"> Lycée Mohammed V | Baccalaureate Diploma  </h3>
+    <h4 className="vertical-timeline-element-subtitle">Essaouira, Morocco</h4>
     <p>
-      Option : Science mathématiques B (Mention très bien)
+    High School Diploma (Scientific Track) with a focus on Mathematics (Sciences Math A).
+    <br /> <strong>Grade</strong> : Graduated With Highest Honors (Très Bien).
     </p>
   </VerticalTimelineElement>
 </VerticalTimeline>
