@@ -3,13 +3,15 @@ import { Col, Row } from "react-bootstrap";
 import {
   SiGooglecolab,
   SiVisualstudiocode,
-  SiMysql,
-  SiNetlify,
-  
+  SiGithub,
+  SiGitlab,
+  SiDocker,
+  SiAnaconda,
+  SiJupyter,
+  SiMicrosoftazure,
+  SiApachekafka,
+  SiFirebase,
 } from "react-icons/si";
-import {
-GrHadoop
-} from "react-icons/gr";
 
 function Toolstack() {
   return (
@@ -18,16 +20,31 @@ function Toolstack() {
         <SiGooglecolab />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiMysql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <GrHadoop />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNetlify />
+        <SiGithub />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGitlab />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiDocker />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiFirebase />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAnaconda />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMicrosoftazure />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiApachekafka />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiJupyter />
       </Col>
     </Row>
   );

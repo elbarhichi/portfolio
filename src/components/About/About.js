@@ -3,10 +3,10 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Github from "./Github";
 import Techstack from "./Techstack";
-import Toolsdesign from "./Toolsdesign";
+import Toolstack from "./Toolstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
-import Toolstack from "./Toolstack";
+
 
 function About() {
   return (
@@ -36,7 +36,7 @@ function About() {
           </Col>
         </Row>
         <h1 className="project-heading">
-          Professional <strong className="purple">Skillset </strong>
+         <strong className="purple">Expertise </strong> I Possess
         </h1>
 
         <Techstack />
@@ -45,12 +45,7 @@ function About() {
           <strong className="purple">Tools</strong> I use
         </h1>
         <Toolstack />
-        
-        
-        <h1 className="project-heading">
-          <strong className="purple">My Designer</strong> kit
-        </h1>
-        <Toolsdesign />
+
 
         <Github />
       </Container>

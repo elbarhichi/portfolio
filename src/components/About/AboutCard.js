@@ -1,6 +1,5 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
 
 function AboutCard() {
   return (
@@ -8,32 +7,21 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Badreddine Saadioui </span>
-            <br />a second-year generalist engineering exchange student at ECL CENTRALE de Lyon. My passion lies in consulting, strategy, finance, and marketing, driven by the amalgamation of applied mathematics, modeling, data analysis, and AI engineering. My curiosity towards science, new technologies and entrepreneurship is growing and supports my engagement to broaden my knowledge and build my skills.
-
-
+            Hi, I am <span className="purple">Mohammed El Barhichi</span>, a final-year engineering student at <span className="purple">CentraleSupélec</span>.
             <br />
-            <br />This portfolio seeks to best convey my character, my professional trajectory, and my future goals. You can find information about my experiences, initiatives, and skills, both professionally and personally. Please get in touch with me if you want additional information about my experience or the projects I worked on.
+            <br />Before joining CentraleSupélec, I spent two years of at <span className="purple">École Centrale Casablanca</span>, where I gained a strong foundation in general engineering and computer science. I then pursued an exchange program with <span className="purple">ESSEC Business School</span>, which allowed me to develop a dual perspective—combining business and engineering.
             <br />
+            <br />I’m particularly passionate about <span className="purple">Artificial Intelligence</span>, which is why I’ve focused my academic projects around AI, such as prediction systems, obstacle detection, and recommendation systems. My most recent internship as an <span className="purple">AI consultant</span> gave me hands-on experience working on an advanced chatbot architectures, further fueling my interest in technical consulting.
             <br />
-            <br />Apart from consulting and data, some other activities that I love to do!
+            <br />This portfolio reflects my journey, showcasing not only my projects, education, and experiences, but also the certifications I’ve earned along the way. You’ll find insights into the <span className="purple">AI-driven solutions</span> I’ve worked on, the challenges I’ve tackled, and the skills I’ve developed through formal training and hands-on work.
+            <br />
+            <br />Feel free to explore and reach out if you’d like to know more about my journey or the projects I’ve been involved in.
           </p>
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Graphic design
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Video editing
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Bodybuilding and sports
-            </li>
-          </ul>
 
           <p style={{ color: "rgb(96, 136, 224)" }}>
-            "I love turning complexity into the simple building blocks of success !"{" "}
+            "The only way to do great work is to love what you do."{" "}
           </p>
-          <footer className="blockquote-footer"> Badreddine Saadioui</footer>
+          <footer className="blockquote-footer">Steve Jobs</footer>
         </blockquote>
       </Card.Body>
     </Card>
