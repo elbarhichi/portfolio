@@ -8,7 +8,7 @@ import Resume from "./components/Resume/ResumeNew";
 import Education from "./components/Education/Education";
 import Experience from "./components/Experience/Experience";
 import Projects from "./components/Projects/Projects";
-import Civic from "./components/Civic/Civic";
+import Certification from "./components/Certification/Certification";
 
 import {
   BrowserRouter as Router,
@@ -45,7 +45,7 @@ function App() {
           <Route path="/project" element={<Projects />} />
           <Route path="/experience" element={<Experience />} />
           <Route path="/resume" element={<Resume />} />
-          <Route path="/civic" element={<Civic />} />
+          <Route path="/certifications" element={<Certification />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />

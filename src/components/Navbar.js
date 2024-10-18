@@ -122,7 +122,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/civic"
+                to="/certifications"
                 onClick={() => updateExpanded(false)}
               >
                 <FaCertificate style={{ marginBottom: "2px" }} /> Certifications

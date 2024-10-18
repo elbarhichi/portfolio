@@ -742,27 +742,3 @@ html {
 .fork-btn-inner::after {
   display: none !important;
 }
-
-
-/* --------- */
-/* ComingSoon section */
-/* --------- */
-
-.soon-section {
-  position: relative;
-  z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
-  background-position: top center;
-  background-repeat: no-repeat;
-  height:100vh;
-}
-
-.soon-content {
-  padding: 9rem 0 2rem !important;
-  color: whitesmoke;
-  text-align: left;
-}
-
-.soon-header {
-  padding-top: 80px !important;
-}
