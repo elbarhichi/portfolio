@@ -11,6 +11,9 @@ import sql from "../../Assets/Certification/sql.jpg";
 import uml from "../../Assets/Certification/uml.jpg";
 import cn from "../../Assets/Certification/cn.jpg";
 import kpmg from "../../Assets/Certification/kpmg.jpg";
+import ml from "../../Assets/Certification/ml.jpg";
+import eng from "../../Assets/Certification/eng.jpg";
+import ds from "../../Assets/Certification/ds.jpg";
 
 
 
@@ -23,9 +26,26 @@ function Certification() {
           My <strong className="purple"> Certifications </strong>
         </h1>
         <p style={{ color: "white" }}>
-          In this section you'll find certifications of courses that I enrolled and competitions that I participated in.
+          In this section you'll find certifications of courses and specializations that I enrolled.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={sm}
+              isBlog={false}
+              title="Scrum Master Certification"
+              description="
+              In this specialization, I learned about managing tasks and events
+              within a Sprint, Scrum terminology and roles, Scrum reporting,
+              managing risks, Story Points and User Stories, scaling
+              Scrum, Continuous Integration, test-Driven Development (TDD), and
+              Behavior Driven Development (BDD).
+              "
+              courseraLink="https://coursera.org/verify/specialization/L8K6MJQJ2SLY"
+              />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={ibm}
@@ -44,21 +64,7 @@ function Certification() {
               courseraLink="https://www.credly.com/badges/5e224d04-1447-4c58-882f-4438ad857d6a/public_url"
               />
           </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={sm}
-              isBlog={false}
-              title="Scrum Master Certification"
-              description="
-              In this specialization, I learned about managing tasks and events
-              within a Sprint, Scrum terminology and roles, Scrum reporting,
-              managing risks, Story Points and User Stories, scaling
-              Scrum, Continuous Integration, test-Driven Development (TDD), and
-              Behavior Driven Development (BDD).
-              "
-              courseraLink="https://coursera.org/verify/specialization/L8K6MJQJ2SLY"
-              />
-          </Col>
+          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={gp}
@@ -90,6 +96,19 @@ function Certification() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={cn}
+              isBlog={false}
+              title="Client Needs and Software Requirements"
+              description="
+              In this course, I learned create clear requirements to drive effective software development,
+              how to visualize client needs using low-fidelity prototypes, how to maximize the effectiveness 
+              of client interactions and how to adapt to changing product requirements
+              "
+              courseraLink="https://coursera.org/verify/QK9DKZZDC874"
+              />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={kpmg}
               isBlog={false}
               title="KPMG Data Analytics Job Simulation"
@@ -102,51 +121,82 @@ function Certification() {
               courseraLink="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/KPMG%20AU/m7W4GMqeT3bh9Nb2c_KPMG%20AU_7dvGeYMiGyLhk8hcj_1708340763296_completion_certificate.pdf"
               />
           </Col>
+          
+
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={py}
               isBlog={false}
               title="SoloLearn Python"
               description="
-              
+              In this specialization, I learned advanced Python programming concepts, and worked on several OOP projects.
               "
-              courseraLink=""
+              courseraLink="https://www.sololearn.com/certificates/CT-FETEQENK"
               />
           </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={sql}
-              isBlog={false}
-              title="SoloLearn SQL"
-              description=" 
-              
-              "
-              courseraLink=""
-              />
-          </Col>
+          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={uml}
               isBlog={false}
               title="Modeling Software Systems using UML"
               description="
-              
+              In this course, I learned how to create UML diagrams to model software systems.
               "
-              courseraLink=""
+              courseraLink="https://coursera.org/verify/CTTMSHDHTZ43"
               />
           </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={cn}
+              imgPath={sql}
               isBlog={false}
-              title="Client Needs and Software Requirements"
+              title="SoloLearn SQL"
               description=" 
-              
+              In this specialization, I learned how to create and manipulate databases using SQL.
               "
-              courseraLink=""
+              courseraLink="https://www.sololearn.com/certificates/CT-NMO0DNAQ"
               />
           </Col>
-    
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ml}
+              isBlog={false}
+              title="Datacamp Understanding Machine Learning"
+              description=" 
+              In this course, I learned how to build and evaluate machine learning models using Python and explored the Machine Learning concepts and basics.
+              "
+              courseraLink="https://www.datacamp.com/completed/statement-of-accomplishment/course/b916c617a6f22007dd2b7799c87a33c3e6ae451b"
+              />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={eng}
+              isBlog={false}
+              title="Datacamp Understanding Data Engineering"
+              description=" 
+              In this course, I learned hat are data engineer’s core responsibilities, how they differ from data scientists, and facilitate the flow of data through an organization through hands-on exercises on collecting, cleaning, and structuring the data.
+              "
+              courseraLink="https://www.datacamp.com/completed/statement-of-accomplishment/course/3c9a507bdf8cd74de5062fe051f17222e1bed79c"
+              />
+          </Col>
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ds}
+              isBlog={false}
+              title="Datacamp Understanding Data Science"
+              description=" 
+              In this course, I learned foundational topics of Data Science like A/B testing, time series analysis, and machine learning, and how data scientists extract knowledge and insights from real-world data. 
+              "
+              courseraLink="https://www.datacamp.com/completed/statement-of-accomplishment/course/e21b57ecd155d900262e34abc3f244d1a3d8db31"
+              />
+          </Col>
+
+
         </Row>
       </Container>
     </Container>

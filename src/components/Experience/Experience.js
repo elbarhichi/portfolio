@@ -18,7 +18,7 @@ function Experience() {
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     icon={<IoMdBriefcase />}
   >
-    <h3 className="vertical-timeline-element-title">CFG BANK | Digital Transformation Strategy Consultant</h3>
+    <h3 className="vertical-timeline-element-title">E-voluciona by Intelcia | Digital Transformation Strategy Consultant</h3>
     <h4 className="vertical-timeline-element-subtitle">Casablanca, Morocco</h4>
     <p>
       A 6-week internship, where i designed and developed an API for quality prospect leads gathering from Creditinfo, integrated it with the Pipedrive CRM used by the marketing team to alert them given also necessary infos about the prospect that i extract, also had a second mission of developping a client assistant chatbot, used dialogflow and extracted data from different sources such as CFG Bank website and dozens of documents.
