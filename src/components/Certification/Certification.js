@@ -35,13 +35,21 @@ function Certification() {
               imgPath={sm}
               isBlog={false}
               title="Scrum Master Certification"
-              description="
+              description={
+                <>
               In this specialization, I learned about managing tasks and events
               within a Sprint, Scrum terminology and roles, Scrum reporting,
               managing risks, Story Points and User Stories, scaling
               Scrum, Continuous Integration, test-Driven Development (TDD), and
               Behavior Driven Development (BDD).
-              "
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+                </>
+              }
               courseraLink="https://coursera.org/verify/specialization/L8K6MJQJ2SLY"
               />
           </Col>
@@ -70,13 +78,21 @@ function Certification() {
               imgPath={gp}
               isBlog={false}
               title="Google Project Management"
-              description="
+              description={
+                <>
               In this Certificate, I have
               completed six courses, developed by Google, that include hands-on,
               practice-based assessments and are designed to prepare them for
               introductory-level roles in Project Management. They are competent in
               initiating, planning and running both traditional and agile projects.
-              "
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+                </>
+              }
               courseraLink="https://coursera.org/verify/professional-cert/E2TFH4L2ZWLN"
               />
           </Col>    
@@ -85,12 +101,17 @@ function Certification() {
               imgPath={bcg}
               isBlog={false}
               title="BCG X Data Science Job Simulation"
-              description=" 
+              description={
+                <>
               In this Job Simulation, I worked on a project to create a customer
                churn analysis simulation using Python. This project built my data 
                science skills in a real-world context, as well as my presentation skills 
                through creating an executive summary of my findings for the team. 
-              "
+              <br />
+              <br />
+              <br />
+                </>
+              }
               courseraLink="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/BCG%20/Tcz8gTtprzAS4xSoK_BCG_7dvGeYMiGyLhk8hcj_1700468583372_completion_certificate.pdf"
               />
           </Col>
@@ -129,9 +150,13 @@ function Certification() {
               imgPath={py}
               isBlog={false}
               title="SoloLearn Python"
-              description="
+              description={
+                <>
               In this specialization, I learned advanced Python programming concepts, and worked on several OOP projects.
-              "
+              <br />
+              <br />
+                </>
+              }
               courseraLink="https://www.sololearn.com/certificates/CT-FETEQENK"
               />
           </Col>
@@ -141,9 +166,11 @@ function Certification() {
               imgPath={uml}
               isBlog={false}
               title="Modeling Software Systems using UML"
-              description="
+              description={
+                <>
               In this course, I learned how to create UML diagrams to model software systems.
-              "
+                </>
+              }
               courseraLink="https://coursera.org/verify/CTTMSHDHTZ43"
               />
           </Col>
@@ -153,9 +180,14 @@ function Certification() {
               imgPath={sql}
               isBlog={false}
               title="SoloLearn SQL"
-              description=" 
+              description={
+                <> 
               In this specialization, I learned how to create and manipulate databases using SQL.
-              "
+              <br />
+              <br />
+              <br />
+                </>
+              }
               courseraLink="https://www.sololearn.com/certificates/CT-NMO0DNAQ"
               />
           </Col>
@@ -165,9 +197,14 @@ function Certification() {
               imgPath={ml}
               isBlog={false}
               title="Datacamp Understanding Machine Learning"
-              description=" 
+              description={
+                <>
               In this course, I learned how to build and evaluate machine learning models using Python and explored the Machine Learning concepts and basics.
-              "
+              <br />
+              <br />
+              <br />
+                </>
+              }
               courseraLink="https://www.datacamp.com/completed/statement-of-accomplishment/course/b916c617a6f22007dd2b7799c87a33c3e6ae451b"
               />
           </Col>
@@ -177,9 +214,13 @@ function Certification() {
               imgPath={eng}
               isBlog={false}
               title="Datacamp Understanding Data Engineering"
-              description=" 
-              In this course, I learned hat are data engineer’s core responsibilities, how they differ from data scientists, and facilitate the flow of data through an organization through hands-on exercises on collecting, cleaning, and structuring the data.
-              "
+              description={
+                <> 
+              In this course, I learned hat are data engineer’s core responsibilities, how they differ from data scientists,
+               and facilitate the flow of data through an organization through hands-on exercises on collecting, cleaning, 
+               and structuring the data.
+                </>
+              }
               courseraLink="https://www.datacamp.com/completed/statement-of-accomplishment/course/3c9a507bdf8cd74de5062fe051f17222e1bed79c"
               />
           </Col>
@@ -189,9 +230,15 @@ function Certification() {
               imgPath={ds}
               isBlog={false}
               title="Datacamp Understanding Data Science"
-              description=" 
-              In this course, I learned foundational topics of Data Science like A/B testing, time series analysis, and machine learning, and how data scientists extract knowledge and insights from real-world data. 
-              "
+              description={
+                <>
+                  In this course, I learned foundational topics of Data Science like A/B testing,
+                  time series analysis, and machine learning, and how data scientists extract knowledge
+                  and insights from real-world data.
+                  <br />
+                  <br />
+                </>
+              }
               courseraLink="https://www.datacamp.com/completed/statement-of-accomplishment/course/e21b57ecd155d900262e34abc3f244d1a3d8db31"
               />
           </Col>

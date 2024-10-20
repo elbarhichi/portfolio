@@ -21,8 +21,20 @@ function ResumeNew() {
       <Container fluid className="resume-section">
         <Particle />
 
+        <Row style={{ justifyContent: "center", position: "relative", marginBottom: "20px" }}>
+          <Button
+            variant="primary"
+            href={pdf}
+            target="_blank"
+            style={{ maxWidth: "250px" }}
+          >
+            <AiOutlineDownload />
+            &nbsp;Download CV
+          </Button>
+        </Row>
+
         {/* Display the PDF in the webpage */}
-        <Row style={{ justifyContent: "center", paddingBottom: "20px" }}>
+        <Row style={{ justifyContent: "center", paddingBottom: "20px"}}>
           <Col md={8}>
             <Document
               file={pdf}
