@@ -22,6 +22,7 @@ import snake from "../../Assets/Projects/snake.jpg";
 import stoch from "../../Assets/Projects/stoch.jpg";
 import tipe from "../../Assets/Projects/tipe.png";
 import plbd from "../../Assets/Projects/plbd.png";
+import humain from "../../Assets/Projects/humain.png";
 
 
 
@@ -231,6 +232,17 @@ function Projects() {
               title="Experimental Project : Laser Data Transmission"
               description="In this project, We developed a laser data transmission system that utilized a laser diode to transmit data over a distance of 30 meters. The system was designed to transmit data at a rate of 1 Mbps using a laser diode and a photodiode to encode and decode the data. The project was developed to improve my understanding of data transmission systems and showcase my ability to develop experimental projects."  
               ghLink="https://github.com/elbarhichi/Laser-data-transmission"
+              />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={humain}
+              isBlog={false}
+              title="Human-Centered Design in Human-Machine Interaction : Enhancing System Performance"
+              description="This project explores the integration of human factors into the design of human-machine systems to improve performance, reduce errors, and ensure user safety. By analyzing various task modeling approaches and system evaluations under both normal and degraded conditions, the project aims to enhance the overall effectiveness and user experience of human-machine interactions."  
+              demoLink="https://github.com/elbarhichi/Human-Centered-Design-in-Human-Machine-Interaction--Enhancing-System-Performance-and-Safety/blob/main/Vid%C3%A9o%20Facteurs%20Humains.mp4"
+              ghLink="https://github.com/elbarhichi/Human-Centered-Design-in-Human-Machine-Interaction--Enhancing-System-Performance-and-Safety"
               />
           </Col>
 
