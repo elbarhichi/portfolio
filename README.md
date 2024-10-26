@@ -4,11 +4,11 @@
 </h2>
 
 
-This portfolio is in maintenance
-<!-- <div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
+
+<div align="center">
+  <img alt="Demo" src="./Images/readme-img.png" />
 </div> -->
-<!-- 
+
 <br/> -->
 
 
