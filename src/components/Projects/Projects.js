@@ -23,6 +23,7 @@ import stoch from "../../Assets/Projects/stoch.jpg";
 import tipe from "../../Assets/Projects/tipe.png";
 import plbd from "../../Assets/Projects/plbd.png";
 import humain from "../../Assets/Projects/humain.png";
+import weld from "../../Assets/Projects/weld.webp"; 
 
 
 
@@ -82,6 +83,26 @@ function Projects() {
               ghLink="https://github.com/elbarhichi/Predicting-Cellular-Localization-Of-Proteins"
               />
           </Col>
+                
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={weld}
+              isBlog={false}
+              title="Welding Quality Prediction"
+              description="This project leverages machine learning techniques to enhance the assessment of welding quality by predicting key mechanical properties. Our approach addresses the limitations of traditional methods reliant on expert judgment, which can be inconsistent and subjective. Using both supervised and semi-supervised learning, we focused on critical variables influencing weld quality, with applications in industries like wind turbine manufacturing where welding quality impacts safety and performance. Our study aims to create a data-driven model that ensures consistent and reliable weld assessments, helping to optimize industrial processes by minimizing dependency on expert knowledge."  
+              ghLink="https://github.com/elbarhichi/Welding-Quality-Prediction"
+              />
+          </Col>
+            
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={churn}
+              isBlog={false}
+              title="BCG - Predicting and Mitigating Customer Churn in the SME Energy Market"
+              description="This project focuses on addressing customer churn in the SME segment of a gas and electricity utility company, where market liberalization has led to significant losses in customer retention. The goal is to analyze customer behavior, particularly their sensitivity to price changes, to develop a predictive model that identifies those most likely to switch providers. By utilizing historical customer and pricing data, the project will test key hypotheses, perform exploratory data analysis, and engineer features to improve churn prediction accuracy. The insights from this model will support the development of strategies such as offering targeted discounts to retain at-risk customers, ultimately improving business outcomes."
+              demoLink="https://github.com/elbarhichi/BCG-Predicting-and-Mitigating-Customer-Churn-in-the-SME-Energy-Market"
+              />
+          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -92,17 +113,8 @@ function Projects() {
               ghLink="https://github.com/elbarhichi/SpaceX-Falcon9-Landing-Prediction"
               />
           </Col>
-                
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={churn}
-              isBlog={false}
-              title="BCG - Predicting and Mitigating Customer Churn in the SME Energy Market"
-              description="This project focuses on addressing customer churn in the SME segment of a gas and electricity utility company, where market liberalization has led to significant losses in customer retention. The goal is to analyze customer behavior, particularly their sensitivity to price changes, to develop a predictive model that identifies those most likely to switch providers. By utilizing historical customer and pricing data, the project will test key hypotheses, perform exploratory data analysis, and engineer features to improve churn prediction accuracy. The insights from this model will support the development of strategies such as offering targeted discounts to retain at-risk customers, ultimately improving business outcomes."
-              demoLink="https://github.com/elbarhichi/BCG-Predicting-and-Mitigating-Customer-Churn-in-the-SME-Energy-Market"
-              />
-          </Col>
-                
+
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={movies}
