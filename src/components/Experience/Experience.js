@@ -24,9 +24,11 @@ function Experience() {
     <h3 className="vertical-timeline-element-title">E-voluciona by Intelcia | Data Science & AI Consultant</h3>
     {/* <h4 className="vertical-timeline-element-subtitle">Casablanca, Morocco</h4> */}
     <p>
-    • Designed and developed customized chatbots using Retrieval-Augmented Generation (RAG) combined with LLMs.
-    <br />• Collaborated with development teams to integrate and optimize the chatbot into existing systems, exceeding
-     the performance of current providers by 35%.
+    • Designed and developed personalized chatbots based on advanced Retrieval-Augmented Generation (RAG) architecture,
+     achieving 87\% score in answer relevancy.
+    <br />• Collaborated with the software engineering team to integrate the chatbots into client systems for two major 
+    clients, improving user experience and interaction efficiency.
+    <br />• You can check a demo of the chatbot using Orange Belgium FAQ as Data Source : <a href="https://chatbot-evoluciona.streamlit.app/" > Demo Link </a>
     </p>
   </VerticalTimelineElement>
 
