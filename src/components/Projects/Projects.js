@@ -24,6 +24,7 @@ import tipe from "../../Assets/Projects/tipe.png";
 import plbd from "../../Assets/Projects/plbd.png";
 import humain from "../../Assets/Projects/humain.png";
 import weld from "../../Assets/Projects/weld.webp"; 
+import intent from "../../Assets/Projects/intent.webp";
 
 
 
@@ -42,6 +43,16 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           
                 
+        < Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={intent}
+              isBlog={false}
+              title="Intent Detection a Tourism Chatbot"
+              description="This project develops an intent detection model for a tourism chatbot to classify user messages into predefined categories like booking, travel alerts, or lost luggage. Using advanced NLP techniques, the system ensures accurate classification for enhanced user experience and efficient support."
+              ghLink="https://github.com/elbarhichi/Intent-Detection"
+              />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={mowajihi}
