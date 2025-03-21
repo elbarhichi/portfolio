@@ -28,6 +28,7 @@ import intent from "../../Assets/Projects/intent.webp";
 import dior from "../../Assets/Projects/dior.png";
 import jailbreak from "../../Assets/Projects/jailbreak.png";
 import dental from "../../Assets/Projects/dental.png";
+import lid from "../../Assets/Projects/lid.png";
 
 
 
@@ -56,7 +57,18 @@ function Projects() {
               />
           </Col>
 
-          
+        
+        < Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={lid}
+              isBlog={false}
+              title="Advanced NLP Project - Language IDentification (LID)"
+              description="This project targets multilingual language identification across 389 languages. We applied rigorous data cleaning and baseline approaches (TF-IDF, fastText) before fine-tuning advanced Transformer architectures (BERT, mBERT, DeBERTaV3, XLM-RoBERTa, RemBERT, and mT5). By leveraging ensemble voting to combine model predictions, we achieved top-tier performance in a Kaggle challenge, demonstrating that robust data preprocessing and synergy among diverse models can significantly boost classification accuracy."
+              ghLink="https://github.com/elbarhichi/AdvancedNLP-LanguageIDentification"
+              />
+          </Col>
+
+
         < Col md={4} className="project-card">
             <ProjectCard
               imgPath={dental}
