@@ -25,6 +25,9 @@ import plbd from "../../Assets/Projects/plbd.png";
 import humain from "../../Assets/Projects/humain.png";
 import weld from "../../Assets/Projects/weld.webp"; 
 import intent from "../../Assets/Projects/intent.webp";
+import dior from "../../Assets/Projects/dior.png";
+import jailbreak from "../../Assets/Projects/jailbreak.png";
+import dental from "../../Assets/Projects/dental.png";
 
 
 
@@ -42,7 +45,39 @@ function Projects() {
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           
-                
+
+        < Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={jailbreak}
+              isBlog={false}
+              title="Jailbreak Detection Pipeline for Virtual Assistants"
+              description="This project implements an end-to-end pipeline for detecting jailbreak attempts on virtual assistants, leveraging advanced machine learning models to analyze user interactions and identify unauthorized behavior. It utilizes Apache Pulsar for low-latency, reliable messaging and Apache Beam for scalable stream processing, while containerization with Docker ensures reproducibility and smooth deployment. A key innovation is the dynamic model update mechanism, which enables hot-swapping of prediction models without downtime, all complemented by integrated latency and metrics monitoring to optimize performance."
+              ghLink="https://github.com/elbarhichi/Jailbreak-Detection"
+              />
+          </Col>
+
+          
+        < Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={dental}
+              isBlog={false}
+              title="Data-Driven Dental Clinic Performance Optimization"
+              description="This project leverages machine learning and AI-driven analytics to optimize the performance of a dental clinic network. Using predictive modeling, clustering, and competitive analysis, we identify key drivers of revenue, segment clinics based on operational and market factors, and assess the impact of competition. The insights generated provide actionable recommendations for improving clinic profitability and strategic expansion."
+              ghLink="https://github.com/elbarhichi/Data-Driven-Dental-Clinic-Performance-Optimization"
+              />
+          </Col>
+
+          < Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={dior}
+              isBlog={false}
+              title="Image Retreival for Catalog Navigation"
+              description="​This project developed a visual search system for Dior products using two approaches: direct similarity search and a combination of category classification followed by similarity search. For feature extraction, models such as CLIP, EfficientNet, and Vision Transformers (ViT) were utilized. In the first approach, the system directly computed similarities between the input image and reference images. In the second approach, the system first classified the product into a category (e.g., bags, shoes) and then performed a similarity search within that category. This methodology enhances the accuracy and efficiency of product identification within the catalog."
+              ghLink="https://github.com/elbarhichi/Dior-Product-Visual-Search"
+              />
+          </Col>
+
+          
         < Col md={4} className="project-card">
             <ProjectCard
               imgPath={intent}
