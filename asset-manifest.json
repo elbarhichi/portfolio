@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.56bfb315.css",
-    "main.js": "/static/js/main.a9ffd5b1.js",
+    "main.js": "/static/js/main.aba65dc9.js",
     "static/js/770.a36fb58a.chunk.js": "/static/js/770.a36fb58a.chunk.js",
     "static/js/453.ace21015.chunk.js": "/static/js/453.ace21015.chunk.js",
     "static/media/plbd.png": "/static/media/plbd.7392c962e82a3fa4ea5e.png",
@@ -43,7 +43,7 @@
     "static/media/stoch.jpg": "/static/media/stoch.a9479d161d155937159b.jpg",
     "static/media/protein.png": "/static/media/protein.952c4287ffd69c626ebb.png",
     "static/media/jecc.jpg": "/static/media/jecc.906f261d7f59f93a0205.jpg",
-    "static/media/resume.pdf": "/static/media/resume.72e258eea6e22b09db83.pdf",
+    "static/media/resume.pdf": "/static/media/resume.6a7c909de49a0d8a20db.pdf",
     "static/media/rl.png": "/static/media/rl.77f751c58515eeb3a786.png",
     "static/media/internet.jpg": "/static/media/internet.f3fd541b960ba5cc0aa6.jpg",
     "static/media/crime.png": "/static/media/crime.bb2e5c2e0a8325ba55a2.png",
@@ -55,12 +55,12 @@
     "index.html": "/index.html",
     "static/media/pre.svg": "/static/media/pre.085842a5bdc3510a52a3.svg",
     "main.56bfb315.css.map": "/static/css/main.56bfb315.css.map",
-    "main.a9ffd5b1.js.map": "/static/js/main.a9ffd5b1.js.map",
+    "main.aba65dc9.js.map": "/static/js/main.aba65dc9.js.map",
     "770.a36fb58a.chunk.js.map": "/static/js/770.a36fb58a.chunk.js.map",
     "453.ace21015.chunk.js.map": "/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.56bfb315.css",
-    "static/js/main.a9ffd5b1.js"
+    "static/js/main.aba65dc9.js"
   ]
 }
