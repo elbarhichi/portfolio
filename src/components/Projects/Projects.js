@@ -29,7 +29,9 @@ import dior from "../../Assets/Projects/dior.png";
 import jailbreak from "../../Assets/Projects/jailbreak.png";
 import dental from "../../Assets/Projects/dental.png";
 import lid from "../../Assets/Projects/lid.png";
-
+import mas from "../../Assets/Projects/mas.png";
+import visual from "../../Assets/Projects/visual.png";
+import rl from "../../Assets/Projects/rl.png";
 
 
 function Projects() {
@@ -45,7 +47,7 @@ function Projects() {
 
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          
+        
 
         < Col md={4} className="project-card">
             <ProjectCard
@@ -58,6 +60,41 @@ function Projects() {
           </Col>
 
         
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={rl}
+              isBlog={false}
+              title="Reinforcement Learning for Autonomous Highway & Racetrack Control"
+              description="Developed and evaluated RL agents across multiple environments: a discrete-action highway scenario using Deep Q-Networks for collision avoidance and lane changing; a continuous-action racetrack via REINFORCE; and benchmarking PPO, A2C & SAC with Stable-Baselines3, complete with TensorBoard logging and policy evaluation."
+              ghLink="https://github.com/elbarhichi/Reinforcement-Learning-Project"
+            />
+          </Col>
+          
+
+          <Col md={4} className="project-card">
+          <ProjectCard
+            imgPath={visual}
+            isBlog={false}
+            title="Computer Vision Projects"
+            description="A collection of mini-projects covering key computer vision techniques including face detection, traffic sign recognition, image colorization, and panorama stitching. Each task leverages OpenCV and deep learning models to solve real-world visual challenges."
+            ghLink="https://github.com/elbarhichi/Computer-Vision-Projects"
+          />
+        </Col>
+
+        
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={mas}
+              isBlog={false}
+              title="Self-Organized Multi-Agent System for Hazardous Waste"
+              description="Simulated heterogeneous robots in a radioactive grid to autonomously collect, combine, and dispose hazardous waste. Compared no-communication vs. communication-enabled strategies, complete with real-time visualization and performance dashboards tracking mission completion and message metrics."
+              ghLink="https://github.com/elbarhichi/Self-Organized-Multi-Agents-System"
+            />
+          </Col>
+
+        
+
         < Col md={4} className="project-card">
             <ProjectCard
               imgPath={lid}
