@@ -14,16 +14,16 @@ function Education() {
     className="vertical-timeline-element--work"
     contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-    date="2022 - 2025"
+    date="2024 - 2025"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     icon={<IoMdSchool />}
   >
-    <h3 className="vertical-timeline-element-title">CentraleSupélec - CentraleCasablanca | Artificial Intelligence</h3>
+    <h3 className="vertical-timeline-element-title">CentraleSupélec | Artificial Intelligence</h3>
     <h4 className="vertical-timeline-element-subtitle">Paris, France</h4>
     <p>
       Master's degree (Diplôme d'Ingénieur) in Artificial Intelligence, with a minor in Innovation and Intrapreneurship.
       <br /><strong>Included courses</strong>  : Machine Learning, Deep Learning, Reinforcement Learning, Multi-Agent Systems, Computer Vision, Natural Language Processing, Data Mining, Probabilistic Graphical Models, etc.
-      <br /><strong>Grade</strong> : Graduated valedictorian (Major de Promo), GPA 4.0/4.0.
+      <br /><strong>Grade</strong> : GPA 4.0/4.0.
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
@@ -56,7 +56,7 @@ function Education() {
     Engineer's degree in General Engineering with a focus on Data Science.
     <br /><strong>Included courses</strong>  : Probability, Statistics, Optimization, Algorithms, Data Structures, Object-Oriented Programming, Operations Research. etc.
     <br />
-    <strong>Grade</strong> : Ranked 2nd out of 180 students.
+    <strong>Grade</strong> : Valedictorian (Major de Promo).
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
