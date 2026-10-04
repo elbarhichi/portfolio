@@ -34,7 +34,7 @@ function Education() {
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     icon={<IoMdSchool />}
   >
-    <h3 className="vertical-timeline-element-title">ESSEC Business School | Data-Driven entrepreneurship</h3>
+    <h3 className="vertical-timeline-element-title">ESSEC Business School | Technology, Data & Strategy</h3>
     <h4 className="vertical-timeline-element-subtitle">Rabat, Morocco</h4>
     <p>
       Exchange program focusing on data-driven entrepreneurship and business development.
