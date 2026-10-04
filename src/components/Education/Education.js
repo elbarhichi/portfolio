@@ -39,7 +39,7 @@ function Education() {
     <p>
       Exchange program focusing on data-driven entrepreneurship and business development.
       <br /> <strong>Included courses</strong> : Data-Driven Decision-Making, Corporate Finance, International Negotiation, Business Strategy, etc.
-      <br /> <strong>Grade</strong> : Ranked 1st out of 30 students.
+      <br /> <strong>Grade</strong> : Ranked 1st in class.
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
