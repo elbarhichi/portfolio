@@ -19,21 +19,16 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              
-            It all began with a spark of curiosity and my participation in the <i> <b className="purple">National Olympiads of Informatics</b> </i>
-            , where I first discovered the incredible world of algorithms and problem-solving.
+
+            I'm an <i> <b className="purple">AI Engineer</b> </i> working as <i> <b className="purple">Agentic AI Lead</b> </i> at <i> <b className="purple">Orange</b> </i> in Paris, where I design and deploy production <i> <b className="purple">multi-agent systems</b> </i> — from network-topology agents on Google Agent Engine to agent-to-agent interoperability protocols for the telecom industry.
             <br />
-            <br />Fast forward to today, I'm a final-year <i> <b className="purple">Artificial Intelligence</b> </i> Engineering student at <i> <b className="purple">CentraleSupélec</b> </i>, with a minor in Innovation.
-            
+            <br />I graduated from <i> <b className="purple">CentraleSupélec</b> </i> in 2025 with a Master's in <i> <b className="purple">Artificial Intelligence</b> </i> as <i> <b className="purple">valedictorian</b> </i>, after two years at École Centrale Casablanca and an exchange at ESSEC Business School.
             <br />
-            <br /> My passion for  <i> <b className="purple">Data Science</b> </i> and <i> <b className="purple">AI projects</b> </i> drives me every day as I explore the power of technology to solve real-world problems.
+            <br /> My passion for <i> <b className="purple">Agentic AI</b> </i> and <i> <b className="purple">GenAI systems</b> </i> drives me every day — whether I'm orchestrating autonomous agents, building RAG pipelines, or pushing AI models to production on cloud infrastructure.
 
             <br />
-            <br />Self-motivated, agile-forward thinker with a knack for communication and teamwork. Whether I’m diving deep into <i> <b className="purple">data analytics</b> </i> or collaborating on cutting-edge <i> <b className="purple">AI models</b> </i>, I'm constantly pushing the boundaries of what's possible.
+            <br />Beyond the technical realm, I'm driven by creative problem-solving, always looking for <i> <b className="purple">innovative</b> </i> ways to blend technology and business to drive meaningful impact.
 
-            <br />
-            <br />Beyond the technical realm, I’m passionate about creative problem-solving, always looking for <i> <b className="purple">innovative</b> </i> ways to blend technology and business to drive meaningful impact.
-              
             </p>
           </Col>
           <Col md={4} className="myAvtar d-flex align-items-center">
@@ -81,7 +76,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="mailto:mohammed.elbarhichi@student-cs.fr"
+                  href="mailto:mohammed.elbarhichi@gmail.com"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
